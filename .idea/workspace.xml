@@ -4,16 +4,19 @@
     <list default="true" id="006152a5-702c-4eea-b57e-d215dec10a85" name="Default" comment="" />
     <ignored path="bodog.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Utils.java" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1376904819462" ignored="false" />
-    <file path="/LoginBodogTest.java" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1376905070325" ignored="false" />
+    <file path="/Utils.java" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1377071160172" ignored="false" />
+    <file path="/LoginBodogTest.java" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1376986205562" ignored="false" />
     <file path="/LoginBodogTest.csv" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1376858278436" ignored="false" />
-    <file path="/config.properties" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1376840341954" ignored="false" />
+    <file path="/config.properties" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1376993671157" ignored="false" />
     <file path="$USER_HOME$/dev/HostelBookers/.idea/workspace.xml" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1376852557920" ignored="false" />
-    <file path="/Worker.java" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1376903757721" ignored="false" />
-    <file path="/BaseFixture.java" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1376842777075" ignored="false" />
-    <file path="/fragment.java" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1376896256161" ignored="false" />
+    <file path="/Worker.java" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1377071823892" ignored="false" />
+    <file path="/BaseFixture.java" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1377016932236" ignored="false" />
+    <file path="/fragment.java" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1377068838363" ignored="false" />
     <file path="/CsvDataProviderIterator.java" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1376863701707" ignored="false" />
     <file path="/TestCaseData.java" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1376896843137" ignored="false" />
+    <file path="/SignInBodogTest.java" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1376995144237" ignored="false" />
+    <file path="/RegisterBodogTest.csv" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1377015806218" ignored="false" />
+    <file path="/Assertions.java" changelist="006152a5-702c-4eea-b57e-d215dec10a85" time="1377071801228" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +36,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -69,9 +73,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/bodog/LoginBodogTest.java" line="27" class="bodog.LoginBodogTest" package="bodog">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/bodog/fixture/LoginBodogTest.java" line="27" class="bodog.fixture.LoginBodogTest" package="bodog.fixture">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -86,7 +89,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/bodog/utils/Utils.java" line="39" class="bodog.utils.Utils" package="bodog.utils">
+      <breakpoint url="file://$PROJECT_DIR$/src/bodog/utils/Utils.java" line="115" class="bodog.utils.Utils" package="bodog.utils">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -111,10 +114,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginBodogTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bodog/LoginBodogTest.java">
+      <file leaf-file-name="LoginBodogTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bodog/fixture/LoginBodogTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="52" selection-start="704" selection-end="704" vertical-scroll-proportion="0.33333334">
+            <state line="13" column="13" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,85 +125,88 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MethodInvocationHelper.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <file leaf-file-name="Worker.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bodog/utils/Worker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="-5.44">
+            <state line="34" column="90" selection-start="994" selection-end="994" vertical-scroll-proportion="0.33208954">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Assertions.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bodog/utils/Assertions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="53" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignInBodogTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bodog/fixture/SignInBodogTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="16" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginBodogTest.csv" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/LoginBodogTest.csv">
+      <file leaf-file-name="MethodInvocationHelper.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/MethodInvocationHelper.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="-5.28">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="Parameters.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/Parameters.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="54" selection-start="2809" selection-end="2809" vertical-scroll-proportion="-5.6">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Invoker.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/Invoker.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="50" selection-start="7673" selection-end="7673" vertical-scroll-proportion="-5.64">
+            <state line="57" column="53" selection-start="5354" selection-end="5354" vertical-scroll-proportion="-5.28">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestMethodWorker.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/TestMethodWorker.class">
+      <file leaf-file-name="BaseFixture.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bodog/BaseFixture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="16" selection-start="1379" selection-end="1379" vertical-scroll-proportion="-5.36">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestRunner.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/TestRunner.class">
+      <file leaf-file-name="Utils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bodog/utils/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="213" column="17" selection-start="12850" selection-end="12850" vertical-scroll-proportion="-5.36">
-              <folding />
+            <state line="38" column="64" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#670#686#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuiteRunner.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/SuiteRunner.class">
+      <file leaf-file-name="RegisterBodogTest.csv" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/RegisterBodogTest.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="17" selection-start="4185" selection-end="4185" vertical-scroll-proportion="-5.36">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuiteRunnerWorker.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/SuiteRunnerWorker.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="16" selection-start="852" selection-end="852" vertical-scroll-proportion="-5.36">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestNG.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/TestNG.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="217" column="23" selection-start="10244" selection-end="10244" vertical-scroll-proportion="-5.36">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoteTestNG.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/remote/RemoteTestNG.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="16" selection-start="1216" selection-end="1216" vertical-scroll-proportion="-5.72">
+            <state line="2" column="52" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -216,20 +222,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/TestCandidates/TestCandidates/LoginBodogTest.java" />
-        <option value="$PROJECT_DIR$/src/bodog/Utils.java" />
-        <option value="$PROJECT_DIR$/src/bodog/LoginBodogTest.csv" />
-        <option value="$PROJECT_DIR$/src/bodog/utils/temp.java" />
         <option value="$PROJECT_DIR$/src/bodog/utils/CsvDataProvider.java" />
         <option value="$PROJECT_DIR$/src/bodog/CsvDataProviderIterator.java" />
         <option value="$PROJECT_DIR$/src/bodog/utils/CsvDataProviderIterator.java" />
         <option value="$PROJECT_DIR$/src/bodog/utils/TestCaseData.java" />
-        <option value="$PROJECT_DIR$/src/bodog/utils/Worker.java" />
+        <option value="$PROJECT_DIR$/src/resources/LoginBodogTest.csv" />
+        <option value="$PROJECT_DIR$/../../Downloads/LoginBodogTest.java" />
+        <option value="$PROJECT_DIR$/LoginBodogTest.java" />
+        <option value="$PROJECT_DIR$/src/bodog/LoginBodogTest.java" />
+        <option value="$PROJECT_DIR$/src/bodog/SignInBodogTest.java" />
         <option value="$PROJECT_DIR$/src/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/bodog/BaseFixture.java" />
+        <option value="$PROJECT_DIR$/src/bodog/fixture/SignInBodogTest.java" />
+        <option value="$PROJECT_DIR$/src/resources/RegisterBodogTest.csv" />
         <option value="$PROJECT_DIR$/src/bodog/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/src/resources/LoginBodogTest.csv" />
-        <option value="$PROJECT_DIR$/src/bodog/LoginBodogTest.java" />
+        <option value="$PROJECT_DIR$/src/bodog/utils/Assertions.java" />
+        <option value="$PROJECT_DIR$/src/bodog/utils/Worker.java" />
       </list>
     </option>
   </component>
@@ -268,7 +276,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -359,13 +366,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bodog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bodog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bodog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,12 +424,13 @@
       <recent name="bodog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Andrew\Documents\Work\bodog\src\resources" />
       <recent name="C:\Users\Andrew\Documents\Work\bodog\src\bodog" />
+      <recent name="C:\Users\Andrew\Documents\work\bodog" />
+      <recent name="C:\Users\Andrew\Documents\Work\bodog\src\resources" />
       <recent name="C:\Users\Andrew\Documents\Work\bodog\src\bodog\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginBodogTest.loginBodogTest">
+  <component name="RunManager" selected="TestNG.SignInBodogTest.SignInBodogTest">
     <configuration default="false" name="LoginBodogTest.loginBodogTest" type="TestNG" factoryName="TestNG" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -412,7 +443,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="bodog" />
-      <option name="MAIN_CLASS_NAME" value="bodog.LoginBodogTest" />
+      <option name="MAIN_CLASS_NAME" value="bodog.fixture.LoginBodogTest" />
       <option name="METHOD_NAME" value="loginBodogTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -439,6 +470,47 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Cover" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SignInBodogTest.SignInBodogTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="bodog.fixture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="bodog" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="bodog.fixture" />
+      <option name="MAIN_CLASS_NAME" value="bodog.fixture.SignInBodogTest" />
+      <option name="METHOD_NAME" value="SignInBodogTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53896" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -534,12 +606,14 @@
       <patterns />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="TestNG.LoginBodogTest.loginBodogTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.SignInBodogTest.SignInBodogTest" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.LoginBodogTest.loginBodogTest" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.SignInBodogTest.SignInBodogTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.LoginBodogTest.loginBodogTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -558,15 +632,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46085998" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46857774" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -574,16 +647,17 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.53914005" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.53914005" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6703418" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6703418" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.53914005" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -653,23 +727,111 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/lang/Object.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/SuiteRunnerWorker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
+        <state line="16" column="16" selection-start="852" selection-end="852" vertical-scroll-proportion="-7.24">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/config.properties">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/TestNG.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+        <state line="217" column="23" selection-start="10244" selection-end="10244" vertical-scroll-proportion="-6.24">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/remote/RemoteTestNG.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="16" selection-start="1216" selection-end="1216" vertical-scroll-proportion="-6.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/TestMethodWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="16" selection-start="1379" selection-end="1379" vertical-scroll-proportion="-5.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/TestRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="213" column="17" selection-start="12850" selection-end="12850" vertical-scroll-proportion="-5.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/SuiteRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="17" selection-start="4109" selection-end="4109" vertical-scroll-proportion="-5.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/Parameters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="54" selection-start="2809" selection-end="2809" vertical-scroll-proportion="-5.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="53" selection-start="5354" selection-end="5354" vertical-scroll-proportion="-5.28">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="-5.28">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bodog/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="64" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#670#686#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bodog/BaseFixture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bodog/fixture/LoginBodogTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/RegisterBodogTest.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="52" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bodog/fixture/SignInBodogTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bodog/utils/Assertions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="53" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -678,100 +840,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bodog/utils/Worker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bodog/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#652#660#0" expanded="true" />
-            <element signature="e#717#733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/Parameters.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="54" selection-start="2809" selection-end="2809" vertical-scroll-proportion="-5.64">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/MethodInvocationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="-5.44">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="50" selection-start="7673" selection-end="7673" vertical-scroll-proportion="-5.64">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/TestMethodWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="1379" selection-end="1379" vertical-scroll-proportion="-5.36">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/TestRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="17" selection-start="12850" selection-end="12850" vertical-scroll-proportion="-5.36">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/SuiteRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="17" selection-start="4185" selection-end="4185" vertical-scroll-proportion="-5.36">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/SuiteRunnerWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="852" selection-end="852" vertical-scroll-proportion="-5.36">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/TestNG.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="23" selection-start="10244" selection-end="10244" vertical-scroll-proportion="-5.36">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/remote/RemoteTestNG.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="16" selection-start="1216" selection-end="1216" vertical-scroll-proportion="-5.72">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/LoginBodogTest.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bodog/LoginBodogTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="52" selection-start="704" selection-end="704" vertical-scroll-proportion="0.33333334">
+        <state line="34" column="90" selection-start="994" selection-end="994" vertical-scroll-proportion="0.33208954">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

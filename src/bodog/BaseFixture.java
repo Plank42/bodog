@@ -16,9 +16,8 @@ public class BaseFixture {
 
     protected static WebDriver selenium;
     protected Properties configFile = new Properties();
-//    protected DateFormat dateValue = new SimpleDateFormat("dd/MM/yyyy");
-//    protected Calendar dateAssert = Calendar.getInstance();
-    public String baseURL, testURL, titleURL, locale, destination, errMsg;
+    public String baseURL, testURL, titleURL, errMsg, loginConfirm;
+    public String regURL, regTitle, regErrMsg, regConfirm;
 
 
     @BeforeSuite
@@ -41,6 +40,11 @@ public class BaseFixture {
         testURL = configFile.getProperty("TEST_URL");
         titleURL = configFile.getProperty("URL_TITLE");
         errMsg = configFile.getProperty("ERR_MSG");
+
+        regURL = configFile.getProperty("REG_URL");
+        regTitle = configFile.getProperty("REG_TITLE");
+        regErrMsg = configFile.getProperty("REG_ERROR");
+        regConfirm = configFile.getProperty("REG_CONFIRM");
     }
 
 
